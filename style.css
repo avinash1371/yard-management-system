@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./images/plant.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .header {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+.content{
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+  color: white;
+  background-color: green;
+  padding: 20px;
+}
+.content input{
+  accent-color: black;
+  margin-right: 3px;
+
+}
+
+.content a{
+  color: black;
+  text-decoration: none;
+
+}
+.content a:hover{
+  text-decoration: underline;
+}
+
+  .container{
+    width: 420px;
+    background: green ;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(9px);
+    color: black;
+    border-radius: 12px;
+    padding: 30px 40px;
+  }
+  .container h1{
+    font-size: 36px;
+    text-align: center;
+  }
+  .container .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    
+    margin: 30px 0;
+  }
+  .header {
+    text-align: center;
+    padding: 20px;
+}
+  .input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+  }
+  .input-box input::placeholder{
+    color: black;
+  }
+  .input-box i{
+    position: absolute;
+    right: 20px;
+    top: 30%;
+    transform: translate(-50%);
+    font-size: 16px;
+  
+  }
+  .container .forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+  }
+  .forgot label input{
+    accent-color: black;
+    margin-right: 3px;
+  
+  }
+  .forgot a{
+    color: black;
+    text-decoration: none;
+  
+  }
+
+  .forgot a:hover{
+    text-decoration: underline;
+  }
+
+  .container .input-box select{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    padding: 10px 40px 20px 20px;
+}
+.container .input-box select option:selected{
+    background-color: black;
+}
+  .container .btn{
+    width: 100%;
+    height: 45px;
+    background: black;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+  }
+  .container .login{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+  }
+  
+  #user_type{
+    padding: 5px;
+    color: black;
+    font-size: 14.5px;
+    background: transparent;
+  }
+  .login p a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .container .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+  
+  }
+  .register-link p a{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .register-link p a:hover{
+    text-decoration: underline;
+  }
+  .container .home{
+    font-size: 14.5px;
+    text-align: center;
+    margin: 20px 0 15px;
+  }
+  .home label input{
+    accent-color: black;
+    margin-right: 3px;
+  
+  }
+  
+  .home a{
+    color: black;
+    text-decoration: none;
+  
+  }
+  .home a:hover{
+    text-decoration: underline;
+  }
